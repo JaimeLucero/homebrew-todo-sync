@@ -6,7 +6,7 @@ class TodoSync < Formula
   homepage "https://github.com/jaimelucero/todo-sync"
   url "https://github.com/jaimelucero/todo-sync/archive/refs/tags/v1.0.4.tar.gz"
   sha256 "cc8934b5ae9071fa11b99564eaca51fc75b06b00388456d974dc002774e52a85"
-  version "1.0.3"
+  version "1.0.4"
   license "MIT"
 
   depends_on "python3"

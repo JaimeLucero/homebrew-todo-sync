@@ -14,12 +14,15 @@ class TodoSync < Formula
   def install
     # Install Python scripts to libexec (similar to Homebrew's Python package pattern)
     libexec.install "scripts/sync.py"
-    libexec.install "templates"
+
+    # Install templates to the prefix root so sync.py can find them at ../templates
+    prefix.install "templates"
 
     # Install the bin/ wrapper
     bin.install "bin/todo-sync"
 
     # The bin/todo-sync script will find sync.py at ../libexec/sync.py
+    # The sync.py script will find templates at ../templates
   end
 
   test do

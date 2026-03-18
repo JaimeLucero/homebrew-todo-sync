@@ -4,9 +4,9 @@
 class TodoSync < Formula
   desc "Bidirectional sync between TODO.md and GitHub Issues"
   homepage "https://github.com/jaimelucero/todo-sync"
-  url "https://github.com/jaimelucero/todo-sync/archive/refs/tags/v1.0.4.tar.gz"
-  sha256 "292359e311d4e894dee3533be7fbd3cf5e940c9d0c926843c1e45657fe90262a"
-  version "1.0.4"
+  url "https://github.com/jaimelucero/todo-sync/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "c61154c8d95c9b74def5ccf8cb972f6578c5c4ad18d91587c0f99fefb6fa0d71"
+  version "1.1.0"
   license "MIT"
 
   depends_on "python3"

@@ -2,11 +2,11 @@
 # Install: brew tap jaimelucero/todo-sync && brew install todo-sync
 
 class TodoSync < Formula
-  desc "Bidirectional sync between TODO.md and GitHub Issues"
+  desc "Bidirectional sync between TODO.md, GitHub Issues, and Notion"
   homepage "https://github.com/jaimelucero/todo-sync"
-  url "https://github.com/jaimelucero/todo-sync/archive/refs/tags/v1.2.1.tar.gz"
-  sha256 "3c0e44eb2715a74834f292463b81cc8cedee86c396583eddd97ed4716244c8c9"
-  version "1.2.1"
+  url "https://github.com/jaimelucero/todo-sync/archive/refs/tags/v1.3.0.tar.gz"
+  sha256 "77c8cab8debed9d1f4b28dceb180937fb03ca548422b9ba890e6637ae01f8e25"
+  version "1.3.0"
   license "MIT"
 
   depends_on "python3"
